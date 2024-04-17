@@ -1,0 +1,50 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1699447422
+BackSelect any icon..png::CompressedTexture2D::4402397558347665220::1679767362::1679767598::1::::<><>::
+icon.svg::CompressedTexture2D::6461081725052000956::1678910723::1678910733::1::::<><>::
+Select any icon..png::CompressedTexture2D::2021434865510417597::1679767327::1679767598::1::::<><>::
+::res://addons/::1679859272
+::res://addons/editor_icon_previewer/::1679859272
+editor_icon_previewer.gd::GDScript::-1::1679766856::0::1::::<>EditorPlugin<>::
+editor_icon_window.gd::GDScript::-1::1679766856::0::1::::<>AcceptDialog<>::
+editor_icon_window.tscn::PackedScene::3405128032188249821::1679766856::0::1::::<><>::res://addons/editor_icon_previewer/editor_icon_window.gd
+icon.png::CompressedTexture2D::6922056563947431181::1679766856::1679766856::1::::<><>::
+LICENSE.md::TextFile::-1::1679766856::0::1::::<><>::
+plugin.cfg::TextFile::-1::1679766856::0::1::::<><>::
+::res://addons/Iconify/::1679859272
+Iconify.gd::GDScript::-1::1679767560::0::1::::<>RefCounted<>::
+Iconify.tscn::PackedScene::-1::1679767560::0::1::::<><>::
+plugin.cfg::TextFile::-1::1679767560::0::1::::<><>::
+::res://addons/material-design-icons/::1679859272
+plugin.cfg::TextFile::-1::1679767546::0::1::::<><>::
+plugin.gd::GDScript::-1::1679768658::0::1::::<>EditorPlugin<>::
+Test.tscn::PackedScene::-1::1679767545::0::1::::<><>::res://addons/material-design-icons/fonts/material_design_icons.ttf<>res://addons/material-design-icons/nodes/MaterialIcon.gd
+::res://addons/material-design-icons/fonts/::1679859272
+material_design_icons.ttf::FontFile::8045099237282865351::1679767545::1679767627::1::::<><>::
+::res://addons/material-design-icons/icons/::1679859272
+icons.gd::GDScript::-1::1679768658::0::1::::<>Node<>::
+icons.json::JSON::-1::1679767545::0::1::::<><>::
+::res://addons/material-design-icons/icon_finder/::1679859272
+IconFinder.tscn::PackedScene::-1::1679767545::0::1::::<><>::res://addons/material-design-icons/icon_finder/icon_finder.gd<>res://addons/material-design-icons/icon_finder/search.gd<>res://addons/material-design-icons/icon_finder/IconsGrid.tscn
+IconsGrid.tscn::PackedScene::-1::1679767545::0::1::::<><>::res://addons/material-design-icons/fonts/material_design_icons.ttf
+icon_finder.gd::GDScript::-1::1679767545::0::1::::<>RefCounted<>::
+icon_grid_generator.gd::GDScript::-1::1679767545::0::1::::<>RefCounted<>::
+search.gd::GDScript::-1::1679767545::0::1::::<>RefCounted<>::
+::res://addons/material-design-icons/nodes/::1679859272
+MaterialButton.gd::GDScript::-1::1679768658::0::1::::<>Button<>::
+MaterialButton.svg::CompressedTexture2D::4889726685548415148::1679767545::1679767627::1::::<><>::
+MaterialIcon.gd::GDScript::-1::1679767546::0::1::::<>RefCounted<>::
+MaterialIcon.svg::CompressedTexture2D::5677755009875201071::1679767546::1679767627::1::::<><>::
+::res://DuSTT/::1699446983
+Daemon.gd::GDScript::-1::1699446876::0::1::::Daemon<>RefCounted<>::
+primary icon.svg::CompressedTexture2D::3135281313930398206::1679009476::1679009559::1::::<><>::
+TernaryTreeNode.gd::GDScript::-1::1699446793::0::1::::TernaryTreeNode<>RefCounted<>::
+::res://User Interface/::1699447128
+interface.gd::GDScript::-1::1699447127::0::1::::<>Control<>::
+interface.tscn::PackedScene::4344934868024661573::1699447128::0::1::::<><>::res://User Interface/interface.gd<>uid://xuvq1i11dv6g::::res://User Interface/Images/3b8bcabd0ac683b7cb3673208039764b.png
+::res://User Interface/Images/::1679859272
+3b8bcabd0ac683b7cb3673208039764b.png::CompressedTexture2D::1656935967488262512::1678913375::1678915789::1::::<><>::
+drawing.svg::CompressedTexture2D::1718641647509435400::1679007844::1679007849::1::::<><>::
+::res://User Interface/TreeNode/::1699447128
+tree_node.gd::GDScript::-1::1679086877::0::1::::TreeNode<>Control<>::
+tree_node.tscn::PackedScene::3758180069900689570::1699447128::0::1::::<><>::res://User Interface/TreeNode/tree_node.gd<>uid://yqr1oa3krqt1::::res://User Interface/Images/drawing.svg

@@ -1,0 +1,226 @@
+[gd_scene load_steps=13 format=3 uid="uid://b25ypbq8gib1n"]
+
+[ext_resource type="Script" path="res://User Interface/interface.gd" id="1_6ak7o"]
+[ext_resource type="Texture2D" uid="uid://xuvq1i11dv6g" path="res://User Interface/Images/3b8bcabd0ac683b7cb3673208039764b.png" id="2_d48vc"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_ubjqo"]
+device = -1
+keycode = 81
+unicode = 113
+
+[sub_resource type="Shortcut" id="Shortcut_aqahl"]
+events = [SubResource("InputEventKey_ubjqo")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_0mut3"]
+device = -1
+keycode = 83
+unicode = 115
+
+[sub_resource type="Shortcut" id="Shortcut_8gcrw"]
+events = [SubResource("InputEventKey_0mut3")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_khtyp"]
+device = -1
+keycode = 65
+unicode = 97
+
+[sub_resource type="Shortcut" id="Shortcut_tyls5"]
+events = [SubResource("InputEventKey_khtyp")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_2dgb2"]
+device = -1
+keycode = 68
+unicode = 100
+
+[sub_resource type="Shortcut" id="Shortcut_rt2mt"]
+events = [SubResource("InputEventKey_2dgb2")]
+
+[sub_resource type="InputEventKey" id="InputEventKey_w21b8"]
+device = -1
+keycode = 87
+unicode = 119
+
+[sub_resource type="Shortcut" id="Shortcut_j7cgo"]
+events = [SubResource("InputEventKey_w21b8")]
+
+[node name="Interface" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6ak7o")
+metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+
+[node name="Panel" type="Panel" parent="HBoxContainer"]
+clip_contents = true
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/Panel/MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="LittleDisplay" type="Label" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+vertical_alignment = 2
+
+[node name="Center" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+shortcut = SubResource("Shortcut_aqahl")
+flat = true
+
+[node name="Reset" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+disabled = true
+shortcut = SubResource("Shortcut_8gcrw")
+text = "Reset"
+
+[node name="Back" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+disabled = true
+shortcut = SubResource("Shortcut_tyls5")
+text = "Back"
+
+[node name="Next" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+disabled = true
+shortcut = SubResource("Shortcut_rt2mt")
+text = "Next"
+
+[node name="Finish" type="Button" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+disabled = true
+shortcut = SubResource("Shortcut_j7cgo")
+text = "Finish"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+follow_focus = true
+
+[node name="Panel" type="Panel" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/ScrollContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(2000, 2000)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/ScrollContainer/Panel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_d48vc")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="TernaryTree" type="Control" parent="HBoxContainer/Panel/MarginContainer/VBoxContainer/ScrollContainer/Panel"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_top = 40.0
+offset_bottom = 40.0
+grow_horizontal = 2
+
+[node name="Panel2" type="Panel" parent="HBoxContainer"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+size_flags_horizontal = 8
+
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/Panel2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/Panel2/MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/Panel2/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/outline_size = 1
+text = "DuSTT Sort v1.0.0"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="HBoxContainer/Panel2/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 2
+scroll_following = true
+context_menu_enabled = true
+selection_enabled = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/Panel2/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Input" type="LineEdit" parent="HBoxContainer/Panel2/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+context_menu_enabled = false
+
+[node name="Run" type="Button" parent="HBoxContainer/Panel2/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Run"
+
+[node name="Clear" type="Button" parent="HBoxContainer/Panel2/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Clear"
+
+[node name="MenuBar" type="MenuBar" parent="HBoxContainer/Panel2/MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Samples" type="PopupMenu" parent="HBoxContainer/Panel2/MarginContainer/VBoxContainer/HBoxContainer/MenuBar"]
+title = "Samples"
+
+[connection signal="pressed" from="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer/Center" to="." method="_on_center_pressed"]
+[connection signal="pressed" from="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer/Reset" to="." method="_on_reset_pressed"]
+[connection signal="pressed" from="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer/Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer/Next" to="." method="_on_next_pressed"]
+[connection signal="pressed" from="HBoxContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer/Finish" to="." method="_on_finish_pressed"]
+[connection signal="text_submitted" from="HBoxContainer/Panel2/MarginContainer/VBoxContainer/HBoxContainer/Input" to="." method="_on_input_text_submitted"]
+[connection signal="pressed" from="HBoxContainer/Panel2/MarginContainer/VBoxContainer/HBoxContainer/Run" to="." method="_on_run_pressed"]
+[connection signal="pressed" from="HBoxContainer/Panel2/MarginContainer/VBoxContainer/HBoxContainer/Clear" to="." method="_on_clear_pressed"]
+[connection signal="index_pressed" from="HBoxContainer/Panel2/MarginContainer/VBoxContainer/HBoxContainer/MenuBar/Samples" to="." method="_on_samples_index_pressed"]

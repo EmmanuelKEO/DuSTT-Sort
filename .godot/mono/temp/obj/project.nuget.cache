@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MHf9kFRjvo8wlfmQvtOfh8ZIS2/XDBNp3xDZcucjfhHlHvAnjT/VlKjEJXJ7apVkW4vjs4eLkUi2B135kZjlPA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\Documents\\Programming\\Projects\\Godot\\DuSTT Sort\\DuSTT Sort.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\godot.sourcegenerators\\4.1.0\\godot.sourcegenerators.4.1.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\godotsharp\\4.1.0\\godotsharp.4.1.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\godotsharpeditor\\4.1.0\\godotsharpeditor.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\bin\Debug\DuSTT Sort.deps.json
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\bin\Debug\DuSTT Sort.runtimeconfig.json
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\bin\Debug\DuSTT Sort.dll
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\bin\Debug\DuSTT Sort.pdb
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\obj\Debug\DuSTT Sort.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\obj\Debug\DuSTT Sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\obj\Debug\DuSTT Sort.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\obj\Debug\DuSTT Sort.AssemblyInfo.cs
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\obj\Debug\DuSTT Sort.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\obj\Debug\DuSTT Sort.csproj.CopyComplete
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\obj\Debug\DuSTT Sort.dll
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\obj\Debug\refint\DuSTT Sort.dll
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\obj\Debug\DuSTT Sort.pdb
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\obj\Debug\DuSTT Sort.genruntimeconfig.cache
+C:\Users\DELL\Documents\Programming\Projects\Godot\DuSTT Sort\.godot\mono\temp\obj\Debug\ref\DuSTT Sort.dll
